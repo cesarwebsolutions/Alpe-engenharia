@@ -11,6 +11,14 @@ p,li {
     margin: 0;
 }
 
+#borda {
+    border: #444 solid 1px;
+    border-radius: 5%;
+    background-color: rgba(219, 214, 214, 0.05);
+    text-align: center;
+    padding: 5%;
+}
+
 
 
 /* Barra de Navegação */
@@ -61,6 +69,10 @@ header, .navbar {
     color: #444;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.fa-hard-hat {
+    font-size: 150px;
 }
 
 #about-list {
@@ -130,3 +142,14 @@ header, .navbar {
     text-decoration: none;
 }
 
+/* responsive */
+
+@media (max-width: 768px) {
+
+    #titulo {
+        display: none;
+    }
+
+
+
+}
