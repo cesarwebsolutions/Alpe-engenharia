@@ -124,6 +124,44 @@ header, .navbar {
 }
 
 
+/* FOOTER */
+#social-container {
+    color: #ccc;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+#social-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#social-container li {
+    display: inline-block;
+    margin: 0 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    transition: .5s;
+    line-height: 3;
+}
+
+#social-container li:hover {
+    background-color: #ccc;
+}
+
+#social-container a {
+    color: #000;
+    transition: .5s;
+}
+
+#social-container i {
+    font-size: 25px;
+}
+
+
+
 
 /* Copy */
 
